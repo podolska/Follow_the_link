@@ -1,0 +1,63 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 30px auto;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.buttons div,
+.buttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    min-height: 30px;
+    border: 1px solid #ffeb3b;
+    background-color: #2196f3;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.clearInput{
+    background-color: #ffeb3b;
+    color: #2196f3;
+}
+.buttons a {
+    text-decoration: none;
+    color:  #ffeb3b;
+    margin: 0;
+}
+
+.labelLink {
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.inputLink {
+    width: 100%;
+    margin-top: 20px;
+}
+
+div.main-content>a:first-child{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+div.main-content>a:first-child:hover{
+    font-size: 20px;
+    transition: 0.5s;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.main-content span,.main-content p{
+    font-size: 15px;
+    color: #2196f3;
+}
